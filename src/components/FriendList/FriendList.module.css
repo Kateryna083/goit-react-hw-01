@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 10px;
+  list-style: none;
+  width: 100%;
+}
+/* className={css.container} */
