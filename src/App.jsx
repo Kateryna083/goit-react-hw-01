@@ -8,11 +8,9 @@ import transactions from "./transactions.json";
 const App = () => {
   return (
     <>
-      <Profile data={data} />
+      <Profile profile={data} />
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />
-
-      <h1>hello world!!!!!!!!!!!!</h1>
+      <TransactionHistory transactions={transactions} />
     </>
   );
 };
